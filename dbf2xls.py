@@ -30,8 +30,8 @@ def main():
             files_o = arg
 
     for file_i in files_i:
-        output_name = path.splitext(file)[0]
-        dbf2xls(files_i + file_i, files_o + output_name + '.xls')
+        output_name = path.splitext(file_i)[0]
+        dbf2xls(files_i + file_i, str(files_o + output_name + '.xls'))
 
 
 if __name__ == "__main__":
