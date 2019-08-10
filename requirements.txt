@@ -1,0 +1,6 @@
+dbfread==2.0.7
+lml==0.0.9
+pkg-resources==0.0.0
+pyexcel==0.5.15
+pyexcel-io==0.5.20
+texttable==1.6.2
